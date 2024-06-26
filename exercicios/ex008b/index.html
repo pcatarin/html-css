@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('Teste')</code> é escrito em linguagem JavaScrip.</p>
+    <p>Para destacarmos um trecho como código usamos a Tag CODE.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0;
+        print(f'O número {num} é PAR')
+    else;
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa.')
+        </code><!--Para voltarmos um trecho todo para trás, selecionamos o trecho e seguramos SHIFT e apertamos TAB-->
+    </pre>
+
+    <p>Para deixarmos o texto como esta acima, usamos a TAG PRE, pois a mesma considera todos os espaçamentos usados, e coloquei a TAG CODE dentro da TAG PRE.</p>
+
+    <h2>Citações Simples</h2>
+    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+    <p>Usamos a TAG Q (Quote) quando queremos dar sentido de citação a uma frase.</p>
+
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <p>Neste tipo de citação usamos a Tag BLOCKQUOTE.</p>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HypesText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+    <p>Para colocarmos abreviações em algum lugar especifico, usamos a TAG ABBR e colocamos um Title referente ao que queremos, assim quando o usuário passar o mouse em cima o titulo será mostrado.</p>
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p>Esta ultima TAG BDO para colocarmos texto invertido nem tem muita utilidade.</p>
+</body>
+</html>

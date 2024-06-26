@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        * {
+            height: 100%;
+        }
+
+        body {
+            background-image: linear-gradient(-45deg, #75B2C0, #748F96, #66D1EA , #5C686B);
+
+            background-attachment: fixed;
+        }
+
+        h1 {
+            margin-bottom: 0px;
+        }
+
+        div {
+            border-radius: 50%;
+            height: 500px;
+            width: 500px;
+            margin: auto;
+            background-image: radial-gradient(circle, #44EB4C, #AC6180, #5D9660);
+            text-align: center;
+            
+        }
+
+        div > p {
+            display: inline-block;
+            margin-top: 50px;
+        }
+        /*Podemos escolher a direção do degrade, dizendo para onde vai: to right, to left, to top, to bottom
+        ou podemos direcionar por graus:
+        90deg, 45deg, 180deg
+        o valor de graus deve ficar junto a nomeação "deg"*/
+
+        /*Para fazer o gradiente pegar no documento, precisamos definir o tanho ocupado pelo conteúdo, fazemos com configurções globais usando "* {aqui definimos altura: height / largura: width ou o que quisermos para o documento geral }"*/
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+    <h2>Testamos gradiente radial abaixo</h2>
+    <div> <p>Teste gradiente radial</p></div>
+</body>
+</html>
